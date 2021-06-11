@@ -1,0 +1,95 @@
+.navbar{
+    background-color: red !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.img1{
+    height: 60px;
+}
+.fa-shopping-cart,.fa-user-circle-o {
+    font-size: 32px !important;
+    margin-right: 10px;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up {
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+.card1,.card2,.card3 {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.mainCard {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newArrivals {
+    margin-top: 50px;
+}
+
+.card {
+width: 250px;
+height: auto;
+margin: 5px;
+}
+
+.btn-primary {
+    width: 110%;
+    background-color: red;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    margin: 20px;
+}
+
+
+
+.heading > h1 {
+    text-shadow: 2px 2px 4px blue;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: green;
+    height: 70px;
+}
+
+h4{
+    color: white;
+}
+
+.footer > div {
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+        .card1,.card2,.card3{
+            width: 100%;
+        }
+}
+    
